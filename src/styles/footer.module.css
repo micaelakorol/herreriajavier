@@ -6,7 +6,7 @@
   place-items: center;
   border-top: 1px solid var(--border);
   color: var(--linkFooter);
-  font-size: 1.05rem;
+  font-size: .9rem;
 }
 .section_footer {
   margin: 0.5rem 0.7rem;
