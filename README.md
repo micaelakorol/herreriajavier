@@ -1,12 +1,26 @@
-# React + Vite
+# Herrería Javier 🔨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sitio web desarrollado para **Herrería Javier**, un emprendimiento dedicado a trabajos de herrería de obra.
 
-Currently, two official plugins are available:
+## 🌐 Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este proyecto consiste en un sitio web estático moderno y responsive, pensado para mostrar los servicios, trabajos realizados y facilitar el contacto de los clientes con la herrería.
 
-## Expanding the ESLint configuration
+El objetivo fue brindar una presencia digital simple pero profesional, optimizada para todos los dispositivos.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Tecnologías utilizadas
+
+- **HTML5**
+- **CSS3 / Módulos CSS**
+- **JavaScript**
+- **React.js**
+- **Git / GitHub**
+
+## ✨ Funcionalidades
+
+- Página principal con presentación del emprendimiento.
+- Sección de servicios ofrecidos.
+- Galería de trabajos realizados.
+- Vías de contacto.
+- Diseño responsive para móviles y tablets.
+- SEO básico para mejorar la visibilidad en buscadores.
