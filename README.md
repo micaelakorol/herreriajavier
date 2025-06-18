@@ -14,7 +14,6 @@ El objetivo fue brindar una presencia digital simple pero profesional, optimizad
 - **CSS3 / Módulos CSS**
 - **JavaScript**
 - **React.js**
-- **Git / GitHub**
 
 ## ✨ Funcionalidades
 
@@ -22,5 +21,4 @@ El objetivo fue brindar una presencia digital simple pero profesional, optimizad
 - Sección de servicios ofrecidos.
 - Galería de trabajos realizados.
 - Vías de contacto.
-- Diseño responsive para móviles y tablets.
-- SEO básico para mejorar la visibilidad en buscadores.
+- Diseño responsive.
