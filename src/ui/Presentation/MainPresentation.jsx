@@ -22,10 +22,10 @@ const MainPresentation = () => {
             Conocé nuestro trabajo
           </Link>
         </section>
-
+{/*
         <section>
           <Icon src={working} alt="working" width={420} height={420} className={style.working} />
-        </section>
+        </section>*/ }
       </main>
     </>
   );

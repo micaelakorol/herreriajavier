@@ -4,7 +4,7 @@ import style from '../../../styles/footer.module.css'
 const PaymentMethod = () => {
   return (
     <section className={style.section_footer}>
-      <p>Todos los medios de pago</p>
+      <p>Medios de pago</p>
       <Icon
         src="https://res.cloudinary.com/dgqyqd2pa/image/upload/v1707924669/landing_page_herreria/cuentadni_tqybuu.svg"
         alt="CuentaDNI"

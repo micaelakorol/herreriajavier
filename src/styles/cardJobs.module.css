@@ -1,43 +1,11 @@
-.container_card {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  overflow: visible;      
-  scrollbar-width: none;   /* Firefox */
-  -ms-overflow-style: none; /* IE 10+ */
-}
-
-.image_card{
-  text-align: center;
-  cursor: pointer;
-  overflow: hidden;
-  margin: 0.22rem;
-  border: none;
-}
-
-.image_card{
-  transition: transform 0.2s ease;
-  z-index: 1;
-}
-
-.image_card:hover {
-  transform: scale(1.3);
-  z-index: 100; 
-}
-
-.title_card{
+.title_card {
   font-size: 2rem;
   margin: 3rem 1.5rem;
-}
-
-/* Chrome, Safari y Opera */
-.container::-webkit-scrollbar {
-  display: none;
+  text-align: center;
 }
 
 @media (max-width: 700px) {
-  .title_card{
+  .title_card {
     font-size: 1.6rem;
   }
 }

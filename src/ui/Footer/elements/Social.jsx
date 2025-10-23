@@ -8,7 +8,7 @@ const Social = () => {
   const social = icons;
   return (
     <section className={style.section_footer}>
-      <p>Contacto:</p>
+      <p>Contacto</p>
       {social.map((item) => (
         <React.Fragment key={item.id}>
           <abbr title={item.abbr}>

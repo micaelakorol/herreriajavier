@@ -8,7 +8,7 @@ import CustomLink from "../../reusable/CustomLink";
 const Navigation = () => {
   return (
     <header className={style.container_navigation}>
-      <Icon alt="logo" src={logo} width={50} height={50} />
+      <Icon alt="logo" src={logo} width={100} height={100} />
       <nav className={style.container_btn}>
         {/* Link service */}
         <CustomLink href="tel:2215404185" className={style.btn_navigation} />

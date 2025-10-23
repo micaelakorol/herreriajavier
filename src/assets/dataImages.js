@@ -10,6 +10,11 @@ export const images = {
       src: "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1707327741/landing_page_herreria/1_5_dermgd.jpg",
       alt: "image_herreria_2",
     },
+     {
+      id: 29,
+      src: "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1761225955/WhatsApp_Image_2025-10-13_at_11.09.44_p3uhuf.jpg",
+      alt: "image_herreria_2",
+    },
     {
       id: 3,
       src: "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1707929561/landing_page_herreria/j_nqyiih.jpg",
@@ -32,7 +37,7 @@ export const images = {
     },
     {
       id: 7,
-      src: "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1707929717/landing_page_herreria/10631096_1501452303440500_8547497874360954279_o_eecrys.jpg",
+      src: "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1761225954/1000030973_pcmask.jpg",
       alt: "image_herreria_7",
     },
     {

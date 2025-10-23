@@ -1,8 +1,9 @@
 *{
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: auto;
-  background-color: #FAFAFA;
+  background-color: #fff;
   color: #191818;
   overflow-x: hidden;
 }
@@ -18,11 +19,11 @@ html, body {
 
 :root{
 
-  --dark: #0e0e0e;
+  --dark: #343333;
   --background: #FAFAFA;
   --border: #eaeaea;
   --linkFoter: #546e7a;
-  --yellow: #f1b604;
+  --yellow: ##ffe066;
   --white: #ffffff;
   --bgDarkButton:#2d2d2a
 
