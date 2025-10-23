@@ -27,13 +27,13 @@
 }
 
 .title_service {
-  font-size: 31px;
+  font-size: 28px;
   text-align: center;
   margin: 1.33rem 1.5rem;
 }
 
 .service_description{
-  font-size: 16px;
+  font-size: 13px;
 }
 
 @media (max-width: 468px) {
@@ -43,7 +43,7 @@
     margin: 1rem auto;
   }
   .title_service {
-    font-size: 28px;
+    font-size: 26px;
     width: 100%;
     margin: 0.5rem;
     text-align: center;

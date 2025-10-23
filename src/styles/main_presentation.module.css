@@ -7,7 +7,7 @@
 
 .welcome_title {
   margin: 0.4rem 0;
-  font-size: 38px;
+  font-size: 31px;
   letter-spacing: 0.5px;
 }
 
@@ -25,7 +25,7 @@
   text-decoration: none;
   border-radius: 0.3rem;
   letter-spacing: 0.5px;
-  font-size: .988rem;
+  font-size: 15px;
   cursor: pointer;
   color: var(--white);
   background-color: var(--dark);
@@ -38,7 +38,7 @@
 
 .subtitle {
   margin: 1rem 0 1.5rem 0;
-  font-size: 17px;
+  font-size: 14px;
 }
 
 .image_wsp {
