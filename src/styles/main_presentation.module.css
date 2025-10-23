@@ -7,7 +7,7 @@
 
 .welcome_title {
   margin: 0.4rem 0;
-  font-size: 2.4rem;
+  font-size: 38px;
   letter-spacing: 0.5px;
 }
 
@@ -38,7 +38,7 @@
 
 .subtitle {
   margin: 1rem 0 1.5rem 0;
-  font-size: 1.1rem;
+  font-size: 17px;
 }
 
 .image_wsp {
@@ -67,10 +67,7 @@
     display: none;
   }
   .welcome_title {
-    font-size: 2.5rem;
-  }
-  .subtitle {
-    font-size: .99rem;
+    font-size: 40px;
   }
   .image_wsp{
     margin: 3rem .5rem;

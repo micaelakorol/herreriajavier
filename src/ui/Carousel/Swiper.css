@@ -2,12 +2,11 @@
   width: 100%;
   max-width: 1000px;
   height: 400px;
-  margin: 7rem auto 7rem auto;
+  margin: 4rem auto 7rem auto;
 }
 
-/* evita que los estilos base de Swiper rompan tu layout */
 .mySwiper .swiper-wrapper {
-  width: max-content !important; /* fuerza el cálculo correcto del ancho */
+  width: max-content !important; 
 }
 
 .mySwiper .swiper-slide {
@@ -17,7 +16,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 300px !important; /* todos los slides mismo ancho */
+  width: 300px !important; 
   height: auto;
   transition: transform 0.3s;
 }
