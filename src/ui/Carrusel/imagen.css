@@ -1,0 +1,23 @@
+
+
+.container_card {
+  padding: 2rem;
+  background-color: var(--white); 
+  text-align: center;
+}
+
+.title_card {
+  font-size: 1.77rem;
+  margin-bottom: 1.5rem;
+  color: var(--dark);
+}
+
+.mySwiper {
+  padding-bottom: 2rem;
+}
+
+.mySwiper .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

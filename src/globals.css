@@ -1,0 +1,29 @@
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: auto;
+  background-color: #fff;
+  color: #333;
+  overflow-x: hidden;
+}
+
+:local{
+  --light-gray:#F2F2F2;
+}
+
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+:root{
+
+  --dark: #333;
+  --background: #FAFAFA;
+  --border: #eaeaea;
+  --linkFoter: #546e7a;
+  --white: #ffffff;
+  --bgDarkButton:#2d2d2a
+
+}

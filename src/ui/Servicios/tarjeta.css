@@ -1,0 +1,93 @@
+/* Título de sección */
+.title_service {
+  font-size: 1.77rem;
+  font-weight: 700;
+  color: var(--dark);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Contenedor principal */
+.card_container_service {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+/* Tarjetas individuales */
+.card_container_service div {
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  max-width: 300px;
+  text-align: center;
+  color: #2d2d2a;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+/* Hover efecto moderno */
+.card_container_service div:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Imagen circular */
+.image_card {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.card_container_service div:hover .image_card {
+  transform: scale(1.05);
+}
+/* Descripción */
+.service_description {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .card_container_service {
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+
+  .card_container_service div {
+    max-width: 250px;
+  }
+
+  .image_card {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 468px) {
+  .card_container_service {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card_container_service div {
+    width: 90%;
+    margin: 1rem 0;
+  }
+
+  .title_service {
+    font-size: 1.3rem;
+  }
+
+  .service_description {
+    font-size: 0.9rem;
+  }
+}
