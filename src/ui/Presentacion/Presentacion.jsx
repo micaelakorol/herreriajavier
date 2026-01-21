@@ -1,8 +1,6 @@
 import BtnWhatsApp from "./BtnWhatsApp";
 import { Link } from "react-scroll";
-import { working } from "../../assets/Icons";
-import Icon from "../../reusable/Icon";
-import './presentacion.css'; // <-- importamos CSS normal
+import './presentacion.css';
 
 const Presentacion = () => {
   return (
@@ -22,11 +20,7 @@ const Presentacion = () => {
             Conocé nuestro trabajo
           </Link>
         </section>
-{/*
-        
-        <section>
-          <Icon src={working} alt="working" width={420} height={420} className="working" />
-        </section>*/}
+
         
       </main>
     </>

@@ -1,7 +1,6 @@
 
 import { services } from "../../assets/dataServices";
-import './tarjeta.css'; // <-- importamos CSS normal
-import { check } from "../../assets/Icons";
+import './tarjeta.css';
 
 const Tarjeta = () => {
   const service = services.item;

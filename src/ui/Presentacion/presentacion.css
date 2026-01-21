@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 4rem 0 5rem 0;
+  margin: 3rem 0 5rem 0;
 }
 
 .welcome_title {
@@ -23,16 +23,11 @@
   cursor: pointer;
   color: var(--white);
   background-color: var(--dark);
-
-  /* Agregamos transición suave */
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-/* Hover: se agranda */
 .btn_work:hover {
-  transform: scale(1.1); /* 10% más grande */
-  color: var(--dark);
-  background-color: var(--white); /* opcional: cambia color al pasar el mouse */
+  transform: scale(1.1);
 }
 
 .subtitle {
@@ -63,9 +58,6 @@
   }
   .working {
     display: none;
-  }
-  .welcome_title {
-    font-size: 40px;
   }
   .image_wsp {
     margin: 3rem 0.5rem;
