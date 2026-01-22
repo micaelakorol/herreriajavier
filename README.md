@@ -11,7 +11,7 @@ El objetivo fue brindar una presencia digital simple pero profesional, optimizad
 ## 🚀 Tecnologías utilizadas
 
 - **HTML5**
-- **CSS3 / Módulos CSS**
+- **Módulos CSS**
 - **JavaScript**
 - **React.js**
 
