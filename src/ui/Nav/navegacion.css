@@ -52,7 +52,7 @@
 
 /* Texto dinámico según tamaño */
 .btn_navigation:first-child:before {
-  content: 'Solicitar Presupuesto';
+  content: 'Solicitar presupuesto';
 }
 
 /* Responsive: móvil */
@@ -76,6 +76,6 @@
   }
 
   .btn_navigation:first-child:before {
-    content: 'Presupuestos';
+    content: 'Presupuesto';
   }
 }

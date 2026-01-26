@@ -1,10 +1,11 @@
+import CustomLink from '../../reusable/CustomLink';
 import './footer.css';
+import '../Nav/navegacion.css'
 export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
         <p>© {new Date().getFullYear()} Herrería Javier</p>
-
         <div className="footer-socials">
           <a
             href="https://wa.link/rv8dwk"
