@@ -11,7 +11,7 @@ const Tarjeta = () => {
         <div key={item.id}>
           <img src={soldador} alt='Soldador' className="image_card" width={30} height={30}/>
           <h3>{item.title}</h3>
-          <p>{item.description}</p>
+          <p className="service_description">{item.description}</p>
         </div>
       ))}
     </section>

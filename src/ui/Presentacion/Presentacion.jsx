@@ -1,5 +1,5 @@
-import BtnWhatsApp from "./BtnWhatsApp";
-import { Link } from "react-scroll";
+import BtnWhatsApp from './BtnWhatsApp';
+import { Link } from 'react-scroll';
 import './presentacion.css';
 
 const Presentacion = () => {
@@ -12,16 +12,14 @@ const Presentacion = () => {
             ¡Te damos la <span>bienvenida!</span>
           </h1>
           <p className="subtitle">
-            En Herrería Javier, contamos con más de 10 años de experiencia en el
-            rubro. <br />
-            Ofrecemos productos de calidad y alta durabilidad.
+            Más de 10 años de experiencia creando trabajos de herrería
+            resistentes y de calidad. <br /> Diseñamos y fabricamos soluciones
+            duraderas, hechas a medida. <br />
           </p>
           <Link activeClass="active" to="jobs" className="btn_work">
             Conocé nuestro trabajo
           </Link>
         </section>
-
-        
       </main>
     </>
   );

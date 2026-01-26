@@ -13,7 +13,7 @@ const Imagen = () => {
   return (
     <Element name="jobs">
       <section className="container_card">
-        <h3 className="title_card">Trabajos destacados</h3>
+        <h3 className="title_card"> Trabajos destacados</h3>
 
         <Swiper
           slidesPerView={'auto'}

@@ -23,11 +23,14 @@
   cursor: pointer;
   color: var(--white);
   background-color: var(--dark);
+  border: 1.3px solid transparent;
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .btn_work:hover {
-  transform: scale(1.1);
+  background-color: var(--white);
+  color: var(--dark);
+  border: 1.3px solid var(--dark)
 }
 
 .subtitle {

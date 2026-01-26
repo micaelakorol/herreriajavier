@@ -23,36 +23,44 @@
 
 /* Botones */
 .btn_navigation {
-  background-color: var(--dark); 
-  color: var(--white);
   font-weight: 600;
   letter-spacing: 0.5px;
   border: none;
-  padding: 0.65rem .77rem;
+  padding: 0.65rem 0.77rem;
   text-decoration: none;
-  border-radius: 40px; 
+  border-radius: 10px;
   cursor: pointer;
   font-size: 14px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+  box-shadow:
+    0 4px 6px rgba(0, 0, 0, 0.1),
+    0 2px 4px rgba(0, 0, 0, 0.06);
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
 }
 
-.btn_navigation:hover {
+.btn_primary {
+  background-color: var(--dark);
+  color: var(--white);
+}
+
+.cta {
+  background-color: #ffc107;
+  color: var(--dark);
+}
+
+.btn_primary:hover {
   background-color: #444;
-  transform: translateY(-1.5px) scale(1.03);
+}
+
+.cta:hover{
+  background-color: var(--white);
 }
 
 /* Efecto activo al hacer clic */
 .btn_navigation:active {
   transform: translateY(0) scale(0.98);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-/* Texto dinámico según tamaño */
-.btn_navigation:first-child:before {
-  content: 'Solicitar presupuesto';
 }
 
 /* Responsive: móvil */
@@ -75,7 +83,4 @@
     font-size: 15px;
   }
 
-  .btn_navigation:first-child:before {
-    content: 'Presupuesto';
-  }
 }

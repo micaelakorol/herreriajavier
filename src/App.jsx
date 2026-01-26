@@ -1,5 +1,6 @@
 import './globals.css'
 import Imagen from './ui/Carrusel/Imagen'
+import Cta from './ui/CTA/Cta'
 import Footer from './ui/Footer/Footer'
 import Navegacion from './ui/Nav/Navegacion'
 import Presentacion from './ui/Presentacion/Presentacion'
@@ -11,6 +12,7 @@ const App = () => {
       <Presentacion/>
       <ServiciosUI />
       <Imagen />
+      <Cta />
       <Footer />
     </>
   )
