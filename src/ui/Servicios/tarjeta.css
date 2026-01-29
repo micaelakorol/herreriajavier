@@ -1,8 +1,6 @@
 /* Título de sección */
 .title_service {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--dark);
+  background-color: var(--white);
   margin: 2rem 0;
   text-align: center;
 }
@@ -18,12 +16,12 @@
 
 /* Tarjetas individuales */
 .card_container_service div {
-  background-color: #fff;
+  background-color: var(--white);
   border-radius: 1rem;
   padding: 1.5rem;
   max-width: 300px;
   text-align: center;
-  color: #2d2d2a;
+  color: var(--bgDarkButton);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;

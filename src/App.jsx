@@ -1,5 +1,6 @@
 import './globals.css'
-import Imagen from './ui/Carrusel/Imagen'
+import Carrusel from './ui/Carrusel/Carrusel'
+import Confianza from './ui/Confianza/Confianza'
 import Cta from './ui/CTA/Cta'
 import Footer from './ui/Footer/Footer'
 import Navegacion from './ui/Nav/Navegacion'
@@ -11,7 +12,8 @@ const App = () => {
      <Navegacion />
       <Presentacion/>
       <ServiciosUI />
-      <Imagen />
+      <Confianza />
+      <Carrusel />
       <Cta />
       <Footer />
     </>

@@ -5,7 +5,7 @@ import { Element } from "react-scroll";
 const ServiciosUI = () => {
   return (
     <Element name="services">
-      <h2 className="title_service"> Servicios de herrería a medida </h2>
+      <h2 className="titles"> Servicios de herrería a medida </h2>
       <Tarjeta />
     </Element>
   );

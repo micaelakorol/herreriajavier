@@ -10,7 +10,7 @@ const Navegacion = () => {
       <Icon alt="logo" src={logo} width={100} height={100} />
       <nav className="container_btn">
         {/* Link service */}
-        <CustomLink href="tel:2215404185" className="btn_navigation cta"> Pedir presupuesto </CustomLink>
+        <CustomLink href="https://wa.me/5492215404185" className="btn_navigation cta"> Pedir presupuesto </CustomLink>
         <Link
           activeClass="active"
           to="services"

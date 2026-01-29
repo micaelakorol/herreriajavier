@@ -24,6 +24,19 @@ html, body {
   --border: #eaeaea;
   --linkFoter: #546e7a;
   --white: #ffffff;
-  --bgDarkButton:#2d2d2a
+  --bgDarkButton:#2d2d2a;
+  --title: #222;
+  --darklight: #444;
+  --gray2: #f8f8f8;
+  --green:#2e7d32;
+  --cta: #ffc107;
+  --hoverBtn: #111;
+}
 
+.titles {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #222;
+  text-align: center;
 }

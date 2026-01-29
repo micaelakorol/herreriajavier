@@ -1,15 +1,10 @@
-
-
 .container_card {
-  padding: 2rem 2rem 0 2rem;
-  background-color: var(--white); 
+  background-color: var(--white);
   text-align: center;
 }
 
-.title_card {
-  font-size: 1.5rem;
-  margin-bottom: 1.5rem;
-  color: var(--dark);
+.container_card h3{
+  margin-top: 2rem;
 }
 
 .mySwiper {

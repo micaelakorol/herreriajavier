@@ -3,17 +3,17 @@ import { Element } from 'react-scroll';
 import Icon from '../../reusable/Icon';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import './Swiper.css';
-import './imagen.css';  // <-- ahora importamos el CSS normal
+import './imagen.css'; 
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 
-const Imagen = () => {
+const Carrusel = () => {
   const image = images.item;
   return (
     <Element name="jobs">
       <section className="container_card">
-        <h3 className="title_card"> Trabajos destacados</h3>
+        <h3 className="titles"> Algunos de nuestros trabajos </h3>
 
         <Swiper
           slidesPerView={'auto'}
@@ -33,4 +33,4 @@ const Imagen = () => {
   );
 };
 
-export default Imagen;
+export default Carrusel;
