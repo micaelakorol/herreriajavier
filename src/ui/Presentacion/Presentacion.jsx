@@ -8,12 +8,17 @@ const Presentacion = () => {
       <BtnWhatsApp />
       <main className="container_presentation">
         <section className="aboutHerreria">
-          <h1 className="welcome_title titles">
-           Herrería a medida, durable y funcional
+          <h1>
+            Soluciones en herrería para tu <br /> hogar, negocio o proyecto.
           </h1>
           <p className="subtitle">
-          Fabricamos portones, rejas y estructuras adaptadas a cada proyecto.
+            Fabricamos portones, rejas, barandas y estructuras <br /> pensadas
+            para cada necesidad.
           </p>
+          <p className="subtitle">
+            Más de 10 años creando trabajos duraderos.
+          </p>
+
           <Link activeClass="active" to="jobs" className="btn_work">
             Trabajos realizados
           </Link>

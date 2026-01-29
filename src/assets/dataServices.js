@@ -3,22 +3,22 @@ export const services = {
     {
       id: 1,
       title: "Portones a medida",
-      description: "Fabricación de portones corredizos, levadizos y estándar, adaptados a cada proyecto.",
+      description: "Fabricación de portones corredizos, levadizos y estándar, adaptados a tu hogar o negocio, resistentes y duraderos.",
     },
     {
       id: 2,
       title: "Puertas y Rejas",
-      description: "Trabajos a medida, pensados para seguridad y durabilidad.",
+      description: "Realización de puertas y rejas a medida, pensadas para tu seguridad y con materiales de calidad.",
     },
     {
       id: 3,
-      title: "Balcones, barandas y estructuras",
-      description: "Combina seguridad y estilo para crear un espacio único.",
+      title: "Balcones, Barandas y Estructuras",
+      description: "Construcción de balcones, barandas y estructuras sólidas, seguras y confiables para cualquier proyecto.",
     },
     {
       id: 4,
-      title: "Reparaciones y mantenimiento",
-      description: "Arreglos, ajustes y trabajos de pintura en general.",
+      title: "Reparaciones y Mantenimiento",
+      description: "Arreglos, ajustes y trabajos de pintura en general para mantener tus instalaciones en buen estado.",
     },
   ],
 };
