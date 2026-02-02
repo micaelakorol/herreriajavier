@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { logo } from '../../assets/Icons';
+import { close, logo, menu } from '../../assets/Icons';
 import { Link } from 'react-scroll';
 import Icon from '../../reusable/Icon';
 import CustomLink from '../../reusable/CustomLink';
@@ -21,11 +21,7 @@ const Navegacion = () => {
           onClick={() => setOpen(!open)}
           aria-label="Abrir menú"
         >
-          {' '}
-          {/** 3 lineas */}
-          <span />
-          <span />
-          <span />
+          <img src={open ? close : menu} alt="icons"/>
         </button>
       </section>
       {/** open === true → agrega la clase show, sino no agrega nada */}
