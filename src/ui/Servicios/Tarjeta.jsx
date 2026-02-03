@@ -9,9 +9,8 @@ const Tarjeta = () => {
     <section className="card_container_service">
       {service.map((item) => (
         <div key={item.id}>
-          <img src={soldador} alt='Soldador' className="image_card" width={30} height={30}/>
+          <img src={soldador} alt={item.title} className="image_card" width={30} height={30}/>
           <h3>{item.title}</h3>
-          <p className="service_description">{item.description}</p>
         </div>
       ))}
     </section>

@@ -1,6 +1,6 @@
 import BtnWhatsApp from './BtnWhatsApp';
-import { Link } from 'react-scroll';
 import './presentacion.css';
+import CustomLink from '../../reusable/CustomLink';
 
 const Presentacion = () => {
   return (
@@ -11,17 +11,15 @@ const Presentacion = () => {
           <h1>
             Soluciones en herrería para tu <br /> hogar, negocio o proyecto.
           </h1>
-          <p className="subtitle">
-            Fabricamos portones, rejas, barandas y estructuras <br /> pensadas
-            para cada necesidad.
-          </p>
-          <p className="subtitle">
-            Más de 10 años creando trabajos duraderos.
-          </p>
+          <p className="subtitle">Portones, rejas y estructuras a medida.</p>
+          <p className="subtitle">Presupuesto directo y sin compromiso.</p>
 
-          <Link activeClass="active" to="jobs" className="btn_work">
-            Trabajos realizados
-          </Link>
+          <CustomLink
+            href="https://wa.me/5492215404185"
+            className="btn_navigation cta"
+          >
+            Pedir presupuesto
+          </CustomLink>
         </section>
       </main>
     </>
