@@ -1,35 +1,34 @@
-
-*{
+* {
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: auto;
-  background-color: #fff;
-  color: #333;
   overflow-x: hidden;
 }
 
-:local{
-  --light-gray:#F2F2F2;
+:local {
+  --light-gray: #f2f2f2;
 }
 
-
-html, body {
+html,
+body {
   scroll-behavior: smooth;
+  background-color: #fff;
+
+  color: #333;
 }
 
-:root{
-
+:root {
   --dark: #333;
-  --background: #FAFAFA;
+  --background: #fafafa;
   --border: #eaeaea;
   --linkFoter: #546e7a;
   --white: #ffffff;
-  --bgDarkButton:#2d2d2a;
+  --bgDarkButton: #2d2d2a;
   --title: #222;
   --darklight: #444;
   --gray2: #f8f8f8;
-  --green:#2e7d32;
-  --cta: #ffc107;
+  --ctaHover: #3f5863;
+  --cta: #546e7a;
   --hoverBtn: #111;
 }
 

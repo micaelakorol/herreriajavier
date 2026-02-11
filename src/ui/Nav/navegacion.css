@@ -47,7 +47,7 @@
 
 .cta {
   background-color: var(--cta);
-  color: var(--dark);
+  color: var(--white);
 }
 
 .btn_primary:hover {
@@ -55,7 +55,7 @@
 }
 
 .cta:hover {
-  background-color: var(--white);
+  background-color: var(--ctaHover);
 }
 
 .btn_navigation:active {
