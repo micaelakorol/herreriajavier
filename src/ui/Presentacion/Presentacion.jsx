@@ -12,7 +12,7 @@ const Presentacion = () => {
             Soluciones en herrería para tu <br /> hogar, negocio o proyecto.
           </h1>
           <p className="subtitle">
-            Portones, rejas y estructuras a medida. <br /> Presupuesto directo y
+            Portones, rejas, estructuras a medida y más. <br /> Presupuesto directo y
             sin compromiso.
           </p>
 

@@ -9,7 +9,7 @@ const confianzaData = [
   },
   {
     numero: "03",
-    texto: "Materiales resistentes",
+    texto: "Materiales resistentes y duraderos",
   },
   {
     numero: "04",

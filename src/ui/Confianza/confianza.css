@@ -6,12 +6,11 @@
 }
 
 .confianza-card {
-  cursor: pointer;
-  max-width: 520px;
+  width: 100%;
+  max-width: 700px;
   margin: 1rem auto;
   border-radius: 12px;
   padding: 1.8rem 2rem;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
 }
 
 .confianza-text {
@@ -26,13 +25,22 @@
 .confianza-item {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 22px 4px;
   gap: 1rem;
+  padding: 22px 4px;
   border-bottom: 1px solid var(--line-dark);
+  justify-content: flex-start;
 }
 
-.numero{
+.numero {
+  flex-shrink: 0;
   font-family: 'JetBrains Mono', monospace;
   color: var(--cta);
+  margin: 0 .4rem;
+  padding: .5rem;
+}
+
+@media (max-width: 468px) {
+  .confianza-card {
+    max-width: none;
+  }
 }

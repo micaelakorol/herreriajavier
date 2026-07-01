@@ -6,7 +6,6 @@ const Confianza = () => {
   return (
     <section className="confianza">
       <h4 className="title-uppercase"> - ¿Por qué elegirnos?</h4>
-
       <div className="confianza-card">
         <p className="confianza-text">
           {confianzaData.map((item, index) => (
