@@ -103,9 +103,9 @@
   }
 
   .btn_navigation {
-    width: 70%;
+    display: block;
     text-align: center;
-    font-size: .88rem;
+    font-size: .8rem;
   }
   .icons {
     width: 100%;
