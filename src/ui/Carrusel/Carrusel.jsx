@@ -13,8 +13,8 @@ const Carrusel = () => {
   return (
     <Element name="jobs">
       <section className="container_card">
-        <h3 className="titles"> Algunos de nuestros trabajos </h3>
-
+        <h2 className="title-uppercase"> - Trabajos realizados </h2>
+        <h3 className='titles'>Algunos de nuestros trabajos</h3>
         <Swiper
           slidesPerView={'auto'}
           spaceBetween={20}

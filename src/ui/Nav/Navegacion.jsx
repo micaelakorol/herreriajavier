@@ -31,7 +31,7 @@ const Navegacion = () => {
           className="btn_navigation cta"
           onClick={closeMenu}
         >
-          Pedir presupuesto
+          Hablar por whatsapp
         </CustomLink>
 
         <Link
@@ -39,7 +39,7 @@ const Navegacion = () => {
           to="services"
           smooth={true}
           duration={500}
-          className="btn_navigation btn_primary"
+          className="btn_navigation btn_secondary"
           onClick={closeMenu}
         >
           Servicios

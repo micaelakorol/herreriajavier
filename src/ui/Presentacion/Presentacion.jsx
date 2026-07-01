@@ -8,16 +8,19 @@ const Presentacion = () => {
       <BtnWhatsApp />
       <main className="container_presentation">
         <section className="aboutHerreria">
-          <h1>
+          <h1 className="principal_title">
             Soluciones en herrería para tu <br /> hogar, negocio o proyecto.
           </h1>
-          <p className="subtitle">Portones, rejas y estructuras a medida. <br /> Presupuesto directo y sin compromiso.</p>
+          <p className="subtitle">
+            Portones, rejas y estructuras a medida. <br /> Presupuesto directo y
+            sin compromiso.
+          </p>
 
           <CustomLink
             href="https://wa.me/5492215404185"
             className="btn_navigation cta"
           >
-            Pedir presupuesto
+            Hacer una consulta
           </CustomLink>
         </section>
       </main>

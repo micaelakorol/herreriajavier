@@ -1,0 +1,20 @@
+const GridIcon = () => {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    >
+      <rect x="4" y="4" width="16" height="16" />
+      <line x1="4" y1="9.3" x2="20" y2="9.3" />
+      <line x1="4" y1="14.7" x2="20" y2="14.7" />
+      <line x1="9.3" y1="4" x2="9.3" y2="20" />
+      <line x1="14.7" y1="4" x2="14.7" y2="20" />
+    </svg>
+  );
+};
+
+export default GridIcon;

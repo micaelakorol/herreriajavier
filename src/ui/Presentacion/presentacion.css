@@ -5,31 +5,16 @@
   margin: 3rem 0 5rem 0;
 }
 
-.welcome_title {
-  font-size: 1.8rem;
-  letter-spacing: 0.5px;
-  text-align: left;
-}
-
-.btn_work {
-  display: inline-block;
-  padding: 0.6rem 1.1rem;
-  font-weight: 600;
-  font-size: 15px;
-  letter-spacing: 0.4px;
-  border-radius: 0.35rem;
-  cursor: pointer;
-  color: var(--white);
-  background-color: var(--dark);
-}
-.btn_work:hover {
-  background-color: var(--hoverBtn);
+.principal_title{
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: justify;
 }
 
 .subtitle {
   margin: 0.5rem 0 1.3rem;
-  font-size: 1.1rem;
-  font-weight: 400;
+  font-size: .94rem;
+  font-weight: 300;
   line-height: 1.55;
   color: var(--darklight);
   max-width: 520px;

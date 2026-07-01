@@ -8,8 +8,8 @@
   align-items: center;
   width: 100%;
   padding: 0 0.6rem;
-  background-color: var(--white);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  background-color: var(--background);
+  border-bottom: 1px solid rgb(228, 226, 226);
 }
 /* =========================
    CONTENEDOR BOTONES
@@ -23,7 +23,7 @@
 }
 
 /* =========================
-   BOTONES NAV
+   BOTONES NAV ESTILOS APLICABLES GENERAL
 ========================= */
 .btn_navigation {
   font-weight: 600;
@@ -31,35 +31,32 @@
   border: none;
   padding: 0.65rem 0.9rem;
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 0.4rem;
+  text-transform: uppercase;
   cursor: pointer;
-  font-size: 14px;
-  box-shadow:
-    0 4px 6px rgba(0, 0, 0, 0.1),
-    0 2px 4px rgba(0, 0, 0, 0.06);
-  transition: all 0.25s ease;
+  font-size: 0.85rem;
+}
+/* BOTÓN DE SERVICIOS NAV*/
+.btn_secondary {
+  background-color: var(--background);
+  color: var(--dark);
+  letter-spacing: normal;
+  border: 1px solid var(--description);
 }
 
-.btn_primary {
-  background-color: var(--dark);
-  color: var(--white);
+.btn_secondary:hover {
+  color: var(--cta);
+  border: 1px solid var(--cta);
 }
 
+/* BOTÓN DE LLAMADA A LA ACCIÓN */
 .cta {
   background-color: var(--cta);
   color: var(--white);
 }
 
-.btn_primary:hover {
-  background-color: var(--hoverBtn);
-}
-
 .cta:hover {
-  background-color: var(--ctaHover);
-}
-
-.btn_navigation:active {
-  transform: scale(0.97);
+  background-color: var(--dark);
 }
 
 /* =========================
@@ -95,12 +92,10 @@
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: var(--white);
     flex-direction: column;
     align-items: center;
     gap: 0.7rem;
     padding: 1rem 0;
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08);
   }
 
   .container_btn.show {
@@ -108,9 +103,9 @@
   }
 
   .btn_navigation {
-    width: 50%;
+    width: 70%;
     text-align: center;
-    font-size: 15px;
+    font-size: .88rem;
   }
   .icons {
     width: 100%;
